@@ -8,25 +8,21 @@
 </head>
 <body>
     <h1>Quiz Drapeaux</h1>
-    <div class="drapeau-a-trouver">
+    <div id="drapeauAtrouver">
         <img />
         <p>Quel est ce drapeau ?</p>
     </div>
-    <div class="propositions">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <button class="bouton-validation">Valider !</button>
+    <div id="entree">
+        <input type="text">
+        <button id="bouton-validation">Valider !</button>
     </div>
-    <div class="reponse">
+    <div id="reponse">
         <p>La réponse était :</p>
     </div>
-    <div class="resultats">
+    <div id="resultats">
         <p>Score :</p>
     </div>
     <script src="js/main.js"></script>
+    <script src="js/generateQuestion.js"></script>
 </body>
 </html>
