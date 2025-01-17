@@ -1,11 +1,11 @@
 let groupeQuestions = {
-    question : null,
+    drapeauAtrouver : null,
     reponse : null,
-    fin : null
+    resultats : null
 };
 
 let pays = [];
-let question = {};
+let drapeauAtrouver = {};
 
 const init = async () => {
     groupeQuestions.drapeauAtrouver = document.querySelector('#drapeauAtrouver');
@@ -18,7 +18,7 @@ const init = async () => {
     drapeauAtrouver = generateQuestion(pays);
 
     console.log(groupeQuestions);
-    groupeQuestions.drapeauAtrouver.querySelector('img').setAttribute('src',drapeauAtrouver.flag);
+    groupeQuestions.drapeauAtrouver.querySelector('img').setAttribute('src', drapeauAtrouver.flag);
 
 };
 

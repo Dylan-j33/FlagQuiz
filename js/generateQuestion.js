@@ -4,8 +4,8 @@ const generateQuestion = (pays) => {
     const paysUniq = pays[random];
 
     const question = {
-      imageDrapeau: paysUniq.flag,
-      reponse: paysUniq.name,
+        flag: paysUniq.flag,
+        reponse: paysUniq.name,
     };
 
     return question;
