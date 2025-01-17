@@ -1,3 +1,19 @@
-.resultats, .reponse {
+#resultats, #reponse {
  display: none;   
+}
+
+body {
+    text-align: center;
+    background-color: #3f60ce;
+
+    h1 {
+        padding: 50px;
+        font-size: 50px;
+        color: white;
+    }
+}
+
+img {
+    height: 300px;
+    box-shadow: 0 0 30px #000000;
 }
