@@ -1,19 +1,45 @@
 #resultats, #reponse {
- display: none;   
+    visibility: hidden;
 }
 
 body {
     text-align: center;
     background-color: #3f60ce;
+}
 
-    h1 {
-        padding: 50px;
-        font-size: 50px;
-        color: white;
-    }
+h1 {
+    padding: 40px 0 0 0;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 img {
     height: 300px;
     box-shadow: 0 0 30px #000000;
+}
+
+.display-none {
+    visibility: hidden;
 }

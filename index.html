@@ -7,20 +7,31 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Quiz Drapeaux</h1>
-    <div id="drapeauAtrouver">
-        <img />
-        <p>Quel est ce drapeau ?</p>
+    <div id="choix-difficulte">
+        <p>Tu préfères...</p>
+        <div class="bouton-difficulte">
+            <button>Avoir le choix entre 4 propositions</button>
+            <button onclick="choixSansAide()">Tenter sans aide</button>
+        </div>
     </div>
-    <div id="entree">
-        <input type="text">
-        <button id="bouton-validation">Valider !</button>
-    </div>
-    <div id="reponse">
-        <p>La réponse était :</p>
-    </div>
-    <div id="resultats">
-        <p>Score :</p>
+    <div id="choix-4"></div>
+    <div id="sans-aide">
+        <h1>Quiz Drapeaux</h1>
+        <p>Score actuel : 5 / 10</p>
+        <div id="drapeauAtrouver">
+            <img />
+            <p>Quel est ce drapeau ?</p>
+        </div>
+        <div id="entree">
+            <input type="text">
+            <button id="bouton-validation">Valider !</button>
+        </div>
+        <div id="reponse">
+            <p>La réponse était :</p>
+        </div>
+        <div id="resultats">
+            <p>Score :</p>
+        </div>
     </div>
     <script src="js/main.js"></script>
     <script src="js/generateQuestion.js"></script>
